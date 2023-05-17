@@ -6,19 +6,19 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <nav>
       <RouterLink to="/">Page d'accueil</RouterLink>
+      <RouterLink to="/ressources">Ressources</RouterLink>
+      <RouterLink to="/communaute">Communauté</RouterLink>
+      <RouterLink to="/cartes">Cartes interactives</RouterLink>
 			<RouterLink to="/a_propos">à propos</RouterLink>
       <RouterLink to="/contact">Contact</RouterLink>
-      <RouterLink to="/cartes">Contact</RouterLink>
-      <RouterLink to="/communaute">Contact</RouterLink>
-      <RouterLink to="/ressources">Contact</RouterLink>
-      <RouterLink to="/connexion">Contact</RouterLink>
+      <RouterLink to="/connexion">Connexion</RouterLink>
     </nav>
   </header>
 
   <RouterView />
 </template>
 
-<style scoped>
+<!-- <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -80,4 +80,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->
