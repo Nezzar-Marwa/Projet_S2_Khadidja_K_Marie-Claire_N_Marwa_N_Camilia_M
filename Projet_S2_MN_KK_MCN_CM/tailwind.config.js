@@ -17,12 +17,17 @@ module.exports = {
       contentbluecards: '#8ecdd7',
       teamcolor: '#434343'
      },
+     
      fontFamily: {
-       sans: ['Jost', sans-serif],
-       serif: ['poppins', sans-serif]
+      jost: ["Jost"],
+      poppins: ["Poppins"]
      },
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        principal: 'repeat(12, minmax(0, 64px))'
+    },
   },
+  
   plugins: [],
 }
-
+}

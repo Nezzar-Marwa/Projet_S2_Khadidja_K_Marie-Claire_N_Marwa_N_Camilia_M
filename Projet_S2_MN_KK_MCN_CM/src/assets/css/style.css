@@ -4,15 +4,21 @@
 
 @layer base {
     body {
-      @apply font-serif text-base;
+      @apply font-poppins text-base;
     }
     h1 {
-      @apply text-4xl font-sans leading-tight lg:text-6xl;
+      @apply text-4xl font-jost leading-tight lg:text-6xl;
     }
     h2 {
-      @apply text-2xl font-sans leading-tight lg:text-4xl;
+      @apply text-2xl font-jost leading-tight lg:text-4xl;
     }
     h3 {
-      @apply text-xl font-sans leading-tight;
+      @apply text-xl font-jost leading-tight;
+    }
+  }
+
+  @layer components {
+    .grille {
+      @apply lg:grid lg:grid-cols-principal lg:justify-center lg:gap-30 px-12;
     }
   }
