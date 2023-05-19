@@ -17,6 +17,10 @@ module.exports = {
       contentbluecards: '#8ecdd7',
       teamcolor: '#434343'
      },
+     fontFamily: {
+       sans: ['Jost', sans-serif],
+       sans: ['poppins', sans-serif]
+     },
     extend: {},
   },
   plugins: [],
