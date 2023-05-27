@@ -9,16 +9,16 @@ import InstagramIcon from '@/components/icons/IconInstagram.vue'
   <footer class="space-y-6 bg-contrastcolor py-16 px-6 text-backgroundcolor">
 
     <div>
-      <h4>Nous</h4>
-      <address>
+      <h4 class="font-poppins text-base font-semibold uppercase mb-2">Nous</h4>
+      <address class="font-poppins text-sm">
         <a href="tel:0384542727">03 84 54 27 27</a><br />
         <a href="mailto:Foksers@contact.fr">foksers@contact.fr</a>
       </address>
     </div>
 
     <nav>
-      <h4>Liens utiles</h4>
-      <ul>
+      <h4 class="font-poppins text-base font-semibold uppercase mb-2">Liens utiles</h4>
+      <ul class="font-poppins text-sm">
         <li><a href="#">Mentions légales</a></li>
         <li><a href="#">Donations</a></li>
         <li><a href="#">Newsletter</a></li>
@@ -30,8 +30,8 @@ import InstagramIcon from '@/components/icons/IconInstagram.vue'
     <div></div>
 
     <div>
-      <h4>Nous suivre</h4>
-      <ul>
+      <h4 class="font-poppins text-base font-semibold uppercase mb-3 ">Nous suivre</h4>
+      <ul class="flex gap-4">
         <li>
           <a href="https://facebook.com" aria-label="facebook"><FacebookIcon /> </a>
         </li>
@@ -44,7 +44,7 @@ import InstagramIcon from '@/components/icons/IconInstagram.vue'
       </ul>
     </div>
     <section>
-      <h4 class="mb-8 font-poppins text-center">Une remarque ? une suggestion ? un commentaire ? N’hésitez pas à nous en faire part.
+      <h4 class="mb-8 font-poppins text-center text-sm">Une remarque ? une suggestion ? un commentaire ? N’hésitez pas à nous en faire part.
           Car pour nous votre avis compte</h4>
       <form action="#">
       <div>
