@@ -15,7 +15,8 @@ module.exports = {
       green: '#2c2c2c',
       text: '#000000',
       contentbluecards: '#8ecdd7',
-      teamcolor: '#434343'
+      teamcolor: '#434343',
+      invalid: '#f42e2e'
      },
      
      fontFamily: {

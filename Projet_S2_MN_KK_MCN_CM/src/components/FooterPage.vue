@@ -46,26 +46,26 @@ import InstagramIcon from '@/components/icons/IconInstagram.vue'
     <section>
       <form action="#">
       <div>
-        <label for="Prénom*">Prénom<span class="obligatoire">*</span> </label>
-        <input type="text" name="Prénom" id="Prénom">
+        <label for="Prénom*">Prénom<span class="text-toniccolor">*</span> </label>
+        <input class="flex rounded-lg text-text border mb-4 px-5  border-toniccolor focus:outline-none focus:ring-1 focus:ring-toniccolor " type="text" name="Prénom" id="Prénom">
       </div>
       <div>
-        <label for="Nom*">Nom<span class="obligatoire">*</span></label>
-        <input type="text" name="Nom" id="Nom">
+        <label for="Nom*">Nom<span class="text-toniccolor">*</span></label>
+        <input class="flex rounded-lg text-text border mb-4 px-5  border-toniccolor focus:outline-none focus:ring-1 focus:ring-toniccolor " type="text" name="Nom" id="Nom">
       </div>
       <div>
-        <label for="Mail*">Mail<span class="obligatoire">*</span></label>
-        <input type="email" name="Mail">
+        <label for="Mail*">Mail<span class="text-toniccolor">*</span></label>
+        <input class="flex rounded-lg text-text border mb-4 px-5  border-toniccolor  invalid:border-invalid invalid:text-invalid focus:outline-none focus:ring-1 focus:ring-toniccolor focus:invalid:border-invalid focus:invalid:ring-invalid" type="email" placeholder="VotreEmail@gmail.com" name="Mail">
       </div>
       <div>
-        <label for="Téléphone*">Téléphone<span class="obligatoire">*</span></label>
-        <input type="text" name="Téléphone">
+        <label for="Téléphone*">Téléphone<span class="text-toniccolor">*</span></label>
+        <input class="flex rounded-lg border mb-4 px-5 border-toniccolor" type="text" name="Téléphone">
       </div>
       <div>
-        <label for="message*">Message<span class="obligatoire">*</span></label>
-        <textarea  id="msg" name="message" rows="5"></textarea>
+        <label for="message*">Message<span class="text-toniccolor">*</span></label>
+        <textarea class="flex rounded-lg text-text border mb-4 px-8  border-toniccolor focus:outline-none focus:ring-1 focus:ring-toniccolor "  id="msg" name="message" rows="5"></textarea>
       </div>
-      <div class="flex items-center justify-center">
+      <div>
       <button class="rounded-full border border-toniccolor px-10 py-3 font-bold text-backgroundcolor hover:bg-toniccolor"  type="submit">Envoyer</button>
     </div>
     </form>
