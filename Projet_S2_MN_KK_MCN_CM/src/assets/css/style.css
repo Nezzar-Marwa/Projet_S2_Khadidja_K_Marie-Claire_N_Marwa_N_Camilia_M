@@ -19,6 +19,6 @@
 
   @layer components {
     .grille {
-      @apply lg:grid lg:grid-cols-principal lg:justify-center lg:gap-28 px-12;
+      @apply lg:grid lg:grid-cols-principal lg:justify-center lg:gap-12 px-6;
     }
   }
