@@ -38,7 +38,7 @@
 		      <li class="menu-item"><RouterLink class="menu-link" to="/communaute" @click="closeMenu">COMMUNAUTE</RouterLink></li>
 		      <li class="menu-item"><RouterLink class="menu-link" to="/cartes" @click="closeMenu">CARTES INTERACTIVES</RouterLink></li>
           <li class="menu-item"><RouterLink class="menu-link" to="/a_propos" @click="closeMenu">A PROPOS</RouterLink></li>
-		      <li class="menu-item"><RouterLink class="menu-link mb-9" to="/contact" @click="closeMenu">CONTACT</RouterLink></li>
+                    <li class="menu-item"><RouterLink class="menu-link" to="/contact" @click="closeMenu">CONTACT</RouterLink></li>
 		      <li class="menu-item"><RouterLink class="menu-link lg:mt-none" to="/" @click="closeMenu"><button class="rounded-full border border-toniccolor px-10 py-3 font-poppins font-medium text-backgroundcolor bg-toniccolor">S'INSCRIRE</button></RouterLink></li>
 		    </ul>
 		  </nav>

@@ -43,7 +43,7 @@ import InstagramIcon from '@/components/icons/IconInstagram.vue'
         </li>
       </ul>
     </div>
-    <section class="col-span-3 col-start-9 space-y-3">
+    <section class=" col-span-3 col-start-9 space-y-3">
       <h4 class="mb-8 font-poppins text-center text-sm">Une remarque ? une suggestion ? un commentaire ? N’hésitez pas à nous en faire part.
           Car pour nous votre avis compte</h4>
       <form action="#">

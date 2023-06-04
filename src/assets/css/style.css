@@ -7,13 +7,19 @@
       @apply font-poppins text-base;
     }
     h1 {
-      @apply text-4xl font-jost leading-tight lg:text-6xl;
+      @apply text-4xl font-jost leading-tight lg:text-[30px];
     }
     h2 {
-      @apply text-2xl font-jost leading-tight lg:text-4xl;
+      @apply text-2xl font-jost leading-tight lg:text-[25px];
     }
     h3 {
-      @apply text-xl font-jost leading-tight;
+      @apply text-xl font-jost leading-tight lg:text-[18px];
+    }
+    h4 {
+      @apply font-poppins text-[16px];
+    }
+    h5{
+      @apply font-poppins text-[18px]
     }
   }
 
