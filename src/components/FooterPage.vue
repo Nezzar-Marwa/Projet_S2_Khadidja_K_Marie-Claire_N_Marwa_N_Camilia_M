@@ -52,16 +52,8 @@ import InstagramIcon from '@/components/icons/IconInstagram.vue'
         <input class="flex rounded-lg text-text border mb-4 px-12 py-1  border-toniccolor focus:outline-none focus:ring-1 focus:ring-toniccolor lg:px-24 " type="text" name="Prénom" id="Prénom">
       </div>
       <div>
-        <label for="Nom*">Nom<span class="text-toniccolor">*</span></label>
-        <input class="flex rounded-lg text-text border mb-4 px-12 py-1  border-toniccolor focus:outline-none focus:ring-1 focus:ring-toniccolor lg:px-24  " type="text" name="Nom" id="Nom">
-      </div>
-      <div>
         <label for="Mail*">Mail<span class="text-toniccolor">*</span></label>
         <input class="flex rounded-lg text-text border mb-4 px-12 py-1  border-toniccolor  invalid:border-invalid invalid:text-invalid focus:outline-none focus:ring-1 focus:ring-toniccolor focus:invalid:border-invalid focus:invalid:ring-invalid lg:px-24 " type="email" placeholder="VotreEmail@gmail.com" name="Mail">
-      </div>
-      <div>
-        <label for="Téléphone*">Téléphone<span class="text-toniccolor">*</span></label>
-        <input class="flex rounded-lg text-text border mb-4 px-12 py-1  border-toniccolor  invalid:border-invalid invalid:text-invalid focus:outline-none focus:ring-1 focus:ring-toniccolor focus:invalid:border-invalid focus:invalid:ring-invalid lg:px-24 " type="text" placeholder="Votre numéro ici" name="Téléphone">
       </div>
       <div>
         <label for="message*">Message<span class="text-toniccolor">*</span></label>
