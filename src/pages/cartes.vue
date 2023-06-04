@@ -1,5 +1,6 @@
 <template>
-    <div class="about">
-      <h1>Cartes intéractives</h1>
-    </div>
+      <div class="pt-36 mb-28">
+        <h1 class="h1 font-semibold uppercase text-center mb-6">Nos cartes</h1>
+        <p class="h3 text-center">N’attendez plus et cherchez vos sentiers dès maintenant ! </p>
+      </div>
   </template>
