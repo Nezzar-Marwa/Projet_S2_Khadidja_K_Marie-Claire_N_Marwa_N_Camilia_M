@@ -15,13 +15,13 @@ import InstagramIcon from '@/components/icons/IconInstagram.vue'
     </div>
 
     <div><h1 class="h1 font-semibold uppercase text-center">Notre équipe</h1></div>
-    <section class="bg-contrastcolor mb-36 py-14 lg:grille">
+    <section class=" bg-contrastcolor mb-36 py-14 lg:grille">
       
-      <div class=" col-span-2 col-start-1">
-        <img src="/img/mc.webp" alt="marie claire">
-        <h class="h6 text-backgroundcolor">Marie-Claire Naze</h>
-        <p class="h6 text-backgroundcolor">marieclaire.naze.pro@gmail.com</p>
-              <ul class="flex gap-4">
+      <div class="mb-14 col-span-2 col-start-1">
+        <img src="/img/mc.webp" alt="marie claire" class="m-auto">
+        <h1 class="h6 text-backgroundcolor text-center">Marie-Claire Naze</h1>
+        <p class="h6 text-backgroundcolor text-center">marieclaire.naze.pro@gmail.com</p>
+              <ul class="flex justify-center items-center gap-4">
           <li>
             <a href="https://facebook.com" aria-label="facebook"><FacebookIcon /> </a>
           </li>
@@ -31,11 +31,11 @@ import InstagramIcon from '@/components/icons/IconInstagram.vue'
         </ul>
       </div>
      
-      <div class="col-span-2 col-start-4">
-                <img src="/img/mn.webp" alt="Marwa nezzar">
-          <h class="h6 text-backgroundcolor">Marwa Nezzar</h>
-          <p class="h6 text-backgroundcolor">marwanezzar@gmail.com</p>
-                <ul class="flex gap-4">
+      <div class="mb-14 col-span-2 col-start-4">
+                <img src="/img/mn.webp" alt="Marwa nezzar" class="m-auto">
+          <h1 class="h6 text-backgroundcolor text-center">Marwa Nezzar</h1>
+          <p class="h6 text-backgroundcolor text-center">marwanezzar@gmail.com</p>
+                <ul class="flex justify-center items-center gap-4">
             <li>
               <a href="https://facebook.com" aria-label="facebook"><FacebookIcon /> </a>
             </li>
@@ -45,11 +45,11 @@ import InstagramIcon from '@/components/icons/IconInstagram.vue'
           </ul>
       </div>
       
-      <div class="col-span-2 col-start-7">
-            <img src="/img/kk.webp" alt="khadidja keffous">
-            <h class="h6 text-backgroundcolor">Khadidja Keffous</h>
-            <p class="h6 text-backgroundcolor">khadidja.keffous@gmail.com</p>
-                  <ul class="flex gap-4">
+      <div class="mb-14 col-span-2 col-start-7">
+            <img src="/img/kk.webp" alt="khadidja keffous" class="m-auto">
+            <h1 class="h6 text-backgroundcolor text-center">Khadidja Keffous</h1>
+            <p class="h6 text-backgroundcolor text-center">khadidja.keffous@gmail.com</p>
+                  <ul class="flex justify-center items-center gap-4">
               <li>
                 <a href="https://facebook.com" aria-label="facebook"><FacebookIcon /> </a>
               </li>
@@ -59,11 +59,11 @@ import InstagramIcon from '@/components/icons/IconInstagram.vue'
             </ul>
       </div>
      
-      <div class="col-span-2 col-start-10">
-             <img src="/img/cm.webp" alt="camilia mokdad">
-              <h class="h6 text-backgroundcolor">Camilia Mokdad</h>
-              <p class="h6 text-backgroundcolor">mokdad.camilia@gmail.com</p>
-                    <ul class="flex gap-4">
+      <div class="mb-14 col-span-2 col-start-10">
+             <img src="/img/cm.webp" alt="camilia mokdad" class="m-auto">
+              <h1 class="h6 text-backgroundcolor text-center">Camilia Mokdad</h1>
+              <p class="h6 text-backgroundcolor text-center">mokdad.camilia@gmail.com</p>
+                    <ul class="flex justify-center items-center gap-4">
                 <li>
                   <a href="https://facebook.com" aria-label="facebook"><FacebookIcon /> </a>
                 </li>
